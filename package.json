@@ -1,0 +1,22 @@
+{
+  "name": "sb10-approval",
+  "version": "1.0.0",
+  "description": "Script to approve email addressed based on domain white list",
+  "main": "approval.js",
+  "scripts": {
+    "prestart": "npm run tsc",
+    "start": "node src/main/javascript/approval",    "approval": "npm run start",
+    "tsc": "tsc",
+    "test": "node src/main/javascript/approval martin@skorupski.de"
+  },
+  "author": "martin.skorupski@highstreet-technologies.com",
+  "license": "(MIT OR Apache-2.0)",
+  "devDependencies": {
+    "typescript": "2.5.2",
+    "@types/node": "8.0.26"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/demx8as6/orbit-lab-sb10-approval.git"
+  }
+}
