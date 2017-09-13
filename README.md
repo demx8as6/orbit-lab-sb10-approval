@@ -4,9 +4,15 @@ A node.js script to approve access to SB10 by email address.
 
 ## Installation
 
-1. Clone it `git clone git://github.com/demx8as6/orbit-lab-sb10-approval.git` 
-2. Run `npm install`
-3. Run `npm start [email-address]` 
+1. Clone it
+    - `git clone git://github.com/demx8as6/orbit-lab-sb10-approval.git`
+    - `cd orbit-lab-sb10-approval`
+
+2. Install it
+    - `npm install`
+
+3. Run it
+    - `npm start [email-address]` 
 
 
 ## Example
